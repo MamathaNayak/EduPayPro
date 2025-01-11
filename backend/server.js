@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://edu-pay-pro-ehvg.vercel.app/', 
   }));
   
 app.use(express.json());
