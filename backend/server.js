@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://edupaypro-123.onrender.com/',
+  origin: 'https://edupaypro-123.onrender.com',
 }));
 app.use(express.json());
 app.use('/api/transactions', transactionRoutes);
