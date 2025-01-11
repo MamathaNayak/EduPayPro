@@ -10,9 +10,10 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://edu-pay-pro-ehvg.vercel.app/', 
-  }));
-  
+  origin: 'https://your-deployed-frontend-domain.com',
+  methods: 'GET,POST,PUT,DELETE',
+  credentials: true,
+}));
 app.use(express.json());
 app.use('/api/transactions', transactionRoutes);
 
