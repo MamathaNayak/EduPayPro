@@ -7,7 +7,7 @@ const Dashboard = () => {
 
  
   const fetchTransactions = () => {
-    fetch("https://edupaypro.onrender.com/api/transactions")
+    fetch("https://edupaypro.onrender.com/api/transactions/")
       .then((res) => res.json())
       .then((data) => setTransactions(data))
       .catch((err) => console.error("Error fetching transactions:", err));
