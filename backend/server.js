@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://your-deployed-frontend-domain.com',
+  origin: 'https://edupaypro-123.onrender.com/',
   methods: 'GET,POST,PUT,DELETE',
   credentials: true,
 }));
