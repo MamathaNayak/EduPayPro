@@ -30,7 +30,7 @@ const UpdateTransactionStatus = ({ fetchTransactions }) => {
         status: status,
       });
   
-      const response = await fetch('http://localhost:5000/api/transactions/webhookStatusUpdate', {
+      const response = await fetch('https://edupaypro.onrender.com/api/transactions/webhookStatusUpdate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
